@@ -38,6 +38,7 @@ void addqueue(stack_t **head, int n)
 	else
 	{
 		stack_t *current = *head;
+
 		while (current->next != NULL)
 		{
 			current = current->next;
