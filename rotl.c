@@ -5,22 +5,21 @@
   *@counter: line_number
   *Return: no return
  */
-void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int count)
+void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
-	stack_t *tmp = *head, *current = *head;
+	stack_t *tmp = *head, *aux;
 
 	if (*head == NULL || (*head)->next == NULL)
 	{
 		return;
 	}
-	*head = (*head)->next;
-	(*head)->prev = NULL;
-
-	while (current->next != NULL)
+	aux = (*head)->next;
+	aux->prev = NULL;
+	for (; tmp->next != NULL; tmp = tmp->next)
 	{
-		current = current->next;
 	}
-	current->next = tmp;
-	tmp->next = NULL;
-	tmp->prev = current;
+	tmp->next = *head;
+	(*head)->next = NULL;
+	(*head)->prev = tmp;
+	(*head) = aux;
 }

@@ -5,7 +5,7 @@
   *@counter: line_number
   *Return: no return
  */
-void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
+void rot_stack(stack_t **head, __attribute__((unused)) unsigned int count)
 {
 	stack_t *copy;
 
@@ -14,9 +14,8 @@ void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 	{
 		return;
 	}
-	while (copy->next)
+	for (; copy->next; copy = copy->next)
 	{
-		copy = copy->next;
 	}
 	copy->next = *head;
 	copy->prev->next = NULL;

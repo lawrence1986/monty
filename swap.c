@@ -5,20 +5,19 @@
  * @counter: line_number
  * Return: no return
 */
-void f_swap(stack_t **head, unsigned int counter)
+void f_swap(stack_t **head, unsigned int count)
 {
 	stack_t *h;
-	int len = 0, aux;
+	int length = 0, aux;
 
 	h = *head;
-	while (h)
+	for (; h; length++)
 	{
 		h = h->next;
-		len++;
 	}
-	if (len < 2)
+	if (length < 2)
 	{
-		fprintf(stderr, "L%d: can't swap, stack too short\n", counter);
+		fprintf(stderr, "L%d: can't swap, stack too short\n", count);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
