@@ -5,28 +5,25 @@
  * @counter: line_number
  * Return: no return
 */
-void f_mul(stack_t **head, unsigned int counter)
+void mul_f(stack_t **head, unsigned int count)
 {
 	stack_t *h;
-	int len = 0, aux;
+	int length = 0;
 
-	h = *head;
-	while (h)
+	for (h = *head; h; h = h->next)
 	{
-		h = h->next;
-		len++;
+		length++;
 	}
-	if (len < 2)
+	if (length < 2)
 	{
-		fprintf(stderr, "L%d: can't mul, stack too short\n", counter);
+		fprintf(stderr, "L%d: can't mul, stack too short\n", count);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 	h = *head;
-	aux = h->next->n * h->n;
-	h->next->n = aux;
+	h->next->n *= h->n;
 	*head = h->next;
 	free(h);
 }
