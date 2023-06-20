@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * f_mul - multiplies the top two elements of the stack.
+ * mul_f - multiplies the top two elements of the stack.
  * @head: stack head
- * @counter: line_number
+ * @count: line_number
  * Return: no return
 */
 void mul_f(stack_t **head, unsigned int count)
