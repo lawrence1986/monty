@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * stack_has_at_least_two_nodes - Checks if the stack has at least two nodes.
+ * sub_stack - Checks if the stack has at least two nodes.
  * @head: Stack head.
  * @count: Line number.
  *
