@@ -7,22 +7,22 @@
 * @content: line content
 * Return: no return
 */
-int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
+int execute(char *content, stack_t **stack, unsigned int count, FILE *file)
 {
 	instruction_t opst[] = {
 				{"push", f_push}, {"pall", f_pall}, {"pint", f_pint},
 				{"pop", f_pop},
 				{"swap", f_swap},
-				{"add", f_add},
-				{"nop", f_nop},
+				{"add", add_f},
+				{"nop", f_not},
 				{"sub", f_sub},
-				{"div", f_div},
-				{"mul", f_mul},
-				{"mod", f_mod},
-				{"pchar", f_pchar},
+				{"div", div_f},
+				{"mul", mul_f},
+				{"mod", mod_f},
+				{"pchar", print_char},
 				{"pstr", f_pstr},
 				{"rotl", f_rotl},
-				{"rotr", f_rotr},
+				{"rotr", rot_stack},
 				{"queue", f_queue},
 				{"stack", f_stack},
 				{NULL, NULL}
@@ -34,16 +34,15 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 	if (op && op[0] == '#')
 		return (0);
 	bus.arg = strtok(NULL, " \n\t");
-	while (opst[i].opcode && op)
+	for (; opst[i].opcode && op; i++)
 	{
 		if (strcmp(op, opst[i].opcode) == 0)
-		{	opst[i].f(stack, counter);
+		{	opst[i].f(stack, count);
 			return (0);
 		}
-		i++;
 	}
 	if (op && opst[i].opcode == NULL)
-	{ fprintf(stderr, "L%d: unknown instruction %s\n", counter, op);
+	{ fprintf(stderr, "L%d: unknown instruction %s\n", count, op);
 		fclose(file);
 		free(content);
 		free_stack(*stack);

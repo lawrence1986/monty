@@ -1,3 +1,4 @@
+#include "monty.h"
 /**
 * pop_exit - Handles error condition when trying to pop an element.
 * @count: The line number where the error occurred.
