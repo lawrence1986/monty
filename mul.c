@@ -24,6 +24,7 @@ void mul_f(stack_t **head, unsigned int count)
 	}
 	h = *head;
 	aux = h->next->n *= h->n;
+	h->next->n = aux;
 	*head = h->next;
 	free(h);
 }
