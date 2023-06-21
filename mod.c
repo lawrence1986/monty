@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * f_mod - computes the rest of the division of the second
+ * mod_f - computes the rest of the division of the second
  * top element of the stack by the top element of the stack
  * @head: stack head
- * @counter: line_number
+ * @count: line_number
  * Return: no return
 */
 void mod_f(stack_t **head, unsigned int count)

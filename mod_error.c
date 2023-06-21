@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * mod_error - ndles error conditions and performs necessary cleanup
+ *
+ * @count: line counter
+ * @head: pointerto stack head
+ */
 void mod_error(unsigned int count, stack_t **head)
 {
 	fprintf(stderr, "L%d: ", count);
