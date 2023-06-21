@@ -8,7 +8,7 @@
 void mul_f(stack_t **head, unsigned int count)
 {
 	stack_t *h;
-	int length = 0 aux;
+	int length = 0, aux;
 
 	for (h = *head; h; h = h->next)
 	{
