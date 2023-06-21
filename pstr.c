@@ -11,8 +11,7 @@ void f_pstr(stack_t **head, unsigned int count)
 	stack_t *h;
 	(void)count;
 
-	h = *head;
-	for (; h; h = h->next)
+	for (h = *head; h; h = h->next)
 	{
 		if (h->n > 127 || h->n <= 0)
 		{
