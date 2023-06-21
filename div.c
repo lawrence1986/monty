@@ -9,7 +9,6 @@ void div_f(stack_t **head, unsigned int count)
 {
 	stack_t *h;
 	int length = 0;
-	int temp;
 
 	h = *head;
 	for (; h; h = h->next)
@@ -33,8 +32,7 @@ void div_f(stack_t **head, unsigned int count)
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
-	temp = h->next->n / h->n;
-	h->next->n =temp;
+	h->next->n /= h->n;
 	*head = h->next;
 	free(h);
 }
