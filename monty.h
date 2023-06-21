@@ -78,4 +78,5 @@ void f_stack(stack_t **head, unsigned int count);
 void handle_error_and_exit(unsigned int count, stack_t **head);
 void pop_exit(unsigned int count, stack_t **head);
 void mod_error(unsigned int count, stack_t **head);
+int sub_stack(stack_t *head, unsigned int count);
 #endif
