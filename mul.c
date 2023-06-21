@@ -23,7 +23,7 @@ void mul_f(stack_t **head, unsigned int count)
 		exit(EXIT_FAILURE);
 	}
 	h = *head;
-	h->next->n * h->n;
+	h->next->n *= h->n;
 	*head = h->next;
 	free(h);
 }
