@@ -1,22 +1,21 @@
 #include "monty.h"
 /**
- * mod_f - computes the rest of the division of the second
+ * mod_f - computes rest of division of the second
  * top element of the stack by the top element of the stack
- * @head: stack head
+ * @head: head of stack
  * @count: line_number
  * Return: no return
 */
 void mod_f(stack_t **head, unsigned int count)
 {
 	stack_t *h;
-	int len = 0, aux;
+	int length = 0, aux;
 
-	h = *head;
-	for (; h; h = h->next)
+	for (h = *head; h; h = h->next)
 	{
-		len++;
+		length++;
 	}
-	if (len < 2)
+	if (length < 2)
 	{
 		fprintf(stderr, "L%d: can't mod, stack too short\n", count);
 		mod_error(count, head);
