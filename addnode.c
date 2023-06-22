@@ -12,10 +12,8 @@ void addnode(stack_t **head, int n)
 
 	if (new_node == NULL)
 
-	{
-		printf("Error\n");
-		exit(0);
-	}
+	{printf("Error\n");
+		exit(0); }
 	new_node->n = n;
 	new_node->next = *head;
 	new_node->prev = NULL;
