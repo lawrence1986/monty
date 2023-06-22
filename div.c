@@ -10,8 +10,7 @@ void div_f(stack_t **head, unsigned int count)
 	stack_t *h;
 	int length = 0;
 
-	h = *head;
-	for (; h; h = h->next)
+	for (h = *head; h; h = h->next)
 	{
 		length++;
 	}
