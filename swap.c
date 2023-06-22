@@ -11,8 +11,7 @@ void f_swap(stack_t **head, unsigned int count)
 	int length = 0;
 	int tmp;
 
-	h = *head;
-	for (; h; length++)
+	for (h = *head; h; length++)
 	{
 		h = h->next;
 	}
