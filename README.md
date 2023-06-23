@@ -78,8 +78,8 @@ All of the following files are programs written in C:
 | ` 15. main.c` | This displays the header files. |
 | ` 16. mod_error.c` | The mod error. |
 | ` 17. monty.h` | Embed more header files. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 18. mul_func.c` | The mul_func script for opcode. |
+| ` 19. pchar` | Implement the pchar opcode. |
+| ` 20. pchar` | Implement the pchar opcode. |
+| ` 21. pchar` | Implement the pchar opcode. |
+| ` 22. pchar` | Implement the pchar opcode. |
