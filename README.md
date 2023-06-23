@@ -37,7 +37,7 @@ This is a TEAM Project done during **Full Stack Software Engineering studies** a
 * If, for any reason, it’s not possible to open the file, print the error message Error: Can't open file
 * nknown instruction <opcode>, followed by a new line, and exit with the status EXIT_FAILURE
 
-## Files
+## Tasks
 All of the following files are programs written in C:
 
 | Filename | Description |
