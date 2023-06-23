@@ -81,5 +81,5 @@ All of the following files are programs written in C:
 | ` 18. mul_func.c` | The mul_func script for opcode. |
 | ` 19. nop.c` | Implement the nop.c. |
 | ` 20. pall_func.c` | Implement the pall_func.c . |
-| ` 21. pchar` | Implement the pchar opcode. |
+| ` 21. pall_func.c` | The opcode pall prints all the values on the stack, starting from the top of the stack. |
 | ` 22. pchar` | Implement the pchar opcode. |
