@@ -67,9 +67,9 @@ All of the following files are programs written in C:
 | ` 4. add_func.c` | Implement the add opcode.|
 | ` 5. nop.c ` | Implement the nop opcode. |
 | ` 6. sub_func.c` | Implement the sub opcode. |
-| ` 7. div` | Implement the div opcode.|
-| ` 8. mul` | Implement the mul opcode. |
-| ` 9. mod` | Implement the mod opcode.|
+| ` 7. div_func.c` | Implement the div opcode.|
+| ` 8. mul_func.c` | Implement the mul opcode. |
+| ` 9. mod_func.c` | Implement the mod opcode.|
 | ` 10. comments` |When the first non-space character of a line is #, treat this line as a comment (don’t do anything) |
 | ` 11. pchar` | Implement the pchar opcode. |
 
