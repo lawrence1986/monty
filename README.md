@@ -3,12 +3,15 @@
 
 This is a TEAM Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about What do LIFO and FIFO mean, What is stack and when to use it, What is queue, and when to use it, What are the common implementation of stacks and queues, common use cases and proper way to use global variables. **C language**.
 
-## Technologies
-* C files are compiled using `gcc 4.8.4`
-* C files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
+## Requirement
+* All files are compiled on Ubuntu 20.04 LTS using  `gcc` with using the options -Wall -Werror -Wextra -pedantic -std=c89
+* A README.md file, at the root of the folder of the project is mandatory
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* You allowed to use a maximum of one global variable
+* No more than 5 functions per file
+* You are allowed to use the C standard library
 * Team Member: Lawrence Maduabuchi & Abdullahi Ngui.
-* Date: April 21st 2023
+* Date: June 23rd 2023
 
 
 
