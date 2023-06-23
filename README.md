@@ -18,7 +18,8 @@ This is a TEAM Project done during **Full Stack Software Engineering studies** a
 * Date: June 23rd 2023
 
 
-
+## GitHub
+* There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
 ## Files
 All of the following files are programs written in C:
