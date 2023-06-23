@@ -83,7 +83,7 @@ All of the following files are programs written in C:
 | ` 20. pall_func.c` | Implement the pall_func.c . |
 | ` 21. pall_func.c` | The opcode pall prints all the values on the stack, starting from the top of the stack. |
 | ` 22. pop_exit.c` | Implement the pop_exit.c opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 23. queue.c'` | Implement the queue.c . |
+| ` 24. rot_func` | Implement the rot_func codec. |
 | ` 11. pchar` | Implement the pchar opcode. |
 | ` 11. pchar` | Implement the pchar opcode. |
