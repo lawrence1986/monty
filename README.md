@@ -72,3 +72,6 @@ All of the following files are programs written in C:
 | ` 9. mod_func.c` | Implement the mod opcode.|
 | ` 10.addingnode.c` |This simply implements add node |
 | ` 11. pstr.c` | Implement the pstr opcode. |
+| ` 12. execute.c` | Implement the exec code. |
+| ` 13. free_stack.c` | Implement the free_stack.c. |
+| ` 14. handle_e.c` | Implement the handle_e script. |
