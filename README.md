@@ -75,8 +75,8 @@ All of the following files are programs written in C:
 | ` 12. execute.c` | Implement the exec code. |
 | ` 13. free_stack.c` | Implement the free_stack.c. |
 | ` 14. handle_e.c` | Implement the handle_e script. |
-| ` 11. pchar` | Implement the pchar opcode. |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 15. main.c` | This displays the header files. |
+| ` 16. mod_error.c` | The mod error. |
 | ` 11. pchar` | Implement the pchar opcode. |
 | ` 11. pchar` | Implement the pchar opcode. |
 | ` 11. pchar` | Implement the pchar opcode. |
