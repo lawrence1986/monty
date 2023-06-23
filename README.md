@@ -47,9 +47,9 @@ All of the following files are programs written in C:
 | ` 2. pop` | Implement the pop opcode.|
 | ` 3. swap` | Implement the swap opcode.|
 | ` 4. add` | Implement the add opcode.|
-| ` handle_buff.c ` | Calculates the precision for printing |
-| ` long_oct_array.c` | Calculates the size to cast the argument |
-| ` print_add.c` | Calculates the width for printing 
+| ` 5. nop ` | Implement the nop opcode. |
+| ` 6. sub` | Implement the sub opcode. |
+| ` 7. div` | Implement the div opcode.| 
 | ` print_bnr.c` | Prints an argument based on its type |
 | ` main.h` | source file for all executable prototypes for program|
 | ` print_buf.c` | A function that evaluates if a char is printable|
