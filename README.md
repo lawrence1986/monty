@@ -86,4 +86,4 @@ All of the following files are programs written in C:
 | ` 23. queue.c'` | Implement the queue.c . |
 | ` 24. rot_func` | Implement the rot_func codec. |
 | ` 25. rot_r.c` | rot_r.c |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 26. stuck_mem.c` | Implement the stuck_mem script. |
