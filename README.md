@@ -45,8 +45,8 @@ All of the following files are programs written in C:
 | ` 0. push, pall` | Implement the push and pall opcodes.|
 | ` 1. pint` | Implement the pint opcode.|
 | ` 2. pop` | Implement the pop opcode.|
-| ` fill_oct_array.c` | Prints the value of a pointer variable|
-| ` get_print_func.c` | Write a function calculate active flags.|
+| ` 3. swap` | Implement the swap opcode.|
+| ` 4. add` | Implement the add opcode.|
 | ` handle_buff.c ` | Calculates the precision for printing |
 | ` long_oct_array.c` | Calculates the size to cast the argument |
 | ` print_add.c` | Calculates the width for printing 
