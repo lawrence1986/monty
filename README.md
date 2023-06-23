@@ -50,10 +50,10 @@ All of the following files are programs written in C:
 | ` 5. nop ` | Implement the nop opcode. |
 | ` 6. sub` | Implement the sub opcode. |
 | ` 7. div` | Implement the div opcode.| 
-| ` print_bnr.c` | Prints an argument based on its type |
-| ` main.h` | source file for all executable prototypes for program|
-| ` print_buf.c` | A function that evaluates if a char is printable|
-| ` print_chr.c` | A function that explicitly prints a string |
+| ` 8. mul` | Implement the mul opcode. |
+| ` 9. mod` | Implement the mod opcode.|
+| ` 10. comments` |When the first non-space character of a line is #, treat this line as a comment (don’t do anything) |
+| ` 11. pchar` | Implement the pchar opcode. |
 
 
 ## Tasks
