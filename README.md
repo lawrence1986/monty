@@ -87,4 +87,4 @@ All of the following files are programs written in C:
 | ` 24. rot_func` | Implement the rot_func codec. |
 | ` 25. rot_r.c` | rot_r.c |
 | ` 26. stuck_mem.c` | Implement the stuck_mem script. |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 27. sub_stack.c` | The opcode sub subtracts the top element of the stack from the second top element of the stack. |
