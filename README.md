@@ -65,8 +65,8 @@ All of the following files are programs written in C:
 | ` 2. pop_func.c` | Implement the pop opcode.|
 | ` 3. swapping.c` | Implement the swap opcode.|
 | ` 4. add_func.c` | Implement the add opcode.|
-| ` 5. nop ` | Implement the nop opcode. |
-| ` 6. sub` | Implement the sub opcode. |
+| ` 5. nop.c ` | Implement the nop opcode. |
+| ` 6. sub_func.c` | Implement the sub opcode. |
 | ` 7. div` | Implement the div opcode.|
 | ` 8. mul` | Implement the mul opcode. |
 | ` 9. mod` | Implement the mod opcode.|
