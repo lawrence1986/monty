@@ -40,7 +40,7 @@ This is a TEAM Project done during **Full Stack Software Engineering studies** a
 ## Tasks
 All of the following files are programs written in C:
 
-| Filename | Description |
+| Task Num | Question |
 | -------- | ----------- |
 | ` 0. push, pall` | Implement the push and pall opcodes.|
 | ` 1. pint` | Implement the pint opcode.|
@@ -50,6 +50,24 @@ All of the following files are programs written in C:
 | ` 5. nop ` | Implement the nop opcode. |
 | ` 6. sub` | Implement the sub opcode. |
 | ` 7. div` | Implement the div opcode.| 
+| ` 8. mul` | Implement the mul opcode. |
+| ` 9. mod` | Implement the mod opcode.|
+| ` 10. comments` |When the first non-space character of a line is #, treat this line as a comment (don’t do anything) |
+| ` 11. pchar` | Implement the pchar opcode. |
+
+## Filename
+All of the following files are programs written in C:
+
+| Filename | Description |
+| -------- | ----------- |
+| ` 0. push.c` | Implement the push and pall opcodes.|
+| ` 1. pint_char.c` | Implement the pint opcode.|
+| ` 2. pop_func.c` | Implement the pop opcode.|
+| ` 3. swapping.c` | Implement the swap opcode.|
+| ` 4. add_func.c` | Implement the add opcode.|
+| ` 5. nop ` | Implement the nop opcode. |
+| ` 6. sub` | Implement the sub opcode. |
+| ` 7. div` | Implement the div opcode.|
 | ` 8. mul` | Implement the mul opcode. |
 | ` 9. mod` | Implement the mod opcode.|
 | ` 10. comments` |When the first non-space character of a line is #, treat this line as a comment (don’t do anything) |
