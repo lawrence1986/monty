@@ -79,7 +79,7 @@ All of the following files are programs written in C:
 | ` 16. mod_error.c` | The mod error. |
 | ` 17. monty.h` | Embed more header files. |
 | ` 18. mul_func.c` | The mul_func script for opcode. |
-| ` 19. pchar` | Implement the pchar opcode. |
-| ` 20. pchar` | Implement the pchar opcode. |
+| ` 19. nop.c` | Implement the nop.c. |
+| ` 20. pall_func.c` | Implement the pall_func.c . |
 | ` 21. pchar` | Implement the pchar opcode. |
 | ` 22. pchar` | Implement the pchar opcode. |
