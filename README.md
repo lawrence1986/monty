@@ -85,5 +85,5 @@ All of the following files are programs written in C:
 | ` 22. pop_exit.c` | Implement the pop_exit.c opcode. |
 | ` 23. queue.c'` | Implement the queue.c . |
 | ` 24. rot_func` | Implement the rot_func codec. |
-| ` 25. pchar` | Implement the pchar opcode. |
+| ` 25. rot_r.c` | rot_r.c |
 | ` 11. pchar` | Implement the pchar opcode. |
