@@ -70,8 +70,8 @@ All of the following files are programs written in C:
 | ` 7. div_func.c` | Implement the div opcode.|
 | ` 8. mul_func.c` | Implement the mul opcode. |
 | ` 9. mod_func.c` | Implement the mod opcode.|
-| ` 10. comments` |When the first non-space character of a line is #, treat this line as a comment (don’t do anything) |
-| ` 11. pchar` | Implement the pchar opcode. |
+| ` 10.addingnode.c` |This simply implements add node |
+| ` 11. pstr.c` | Implement the pstr opcode. |
 
 
 ## Tasks
